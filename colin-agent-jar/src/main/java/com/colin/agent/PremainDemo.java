@@ -35,11 +35,4 @@ public class PremainDemo {
         inst.addTransformer(new MyAgent());
     }
 
-    /**
-     * premain 方法参数：可以传一个参数，也可传两个参数，但两个参数的 premain 重载方法优先执行
-     */
-    /*public static void premain(String agentArgs) {
-        System.out.println("hello agent，单参数 premain");
-        System.out.println("agentArgs===>" + agentArgs);
-    }*/
 }
